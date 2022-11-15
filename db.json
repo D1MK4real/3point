@@ -1,0 +1,22 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "sale":[
+      {"id":1,"name":"Air Jordan 4 Retro Sail","price":160,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":2,"name":"Air Jordan 1 Retro High Yellow","price":140,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":3,"name":"Air Jordan 1 Low Pink","price":100,"old_price":140,"for":"women","size":[1,2,3]},
+      {"id":4,"name":"Air Jordan 5 Retro Sail","price":160,"old_price":"","for":"men","size":[1,2,3]},
+      {"id":5,"name":"Air Jordan 1 Retro High Yellow","price":140,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":6,"name":"Air Jordan 1 Low Pink","price":100,"old_price":140,"for":"women","size":[1,2,3]},
+      {"id":7,"name":"Air Jordan 6 Retro Sail","price":160,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":8,"name":"Air Jordan 1 Retro High Yellow","price":140,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":9,"name":"Air Jordan 1 Low Pink","price":100,"old_price":140,"for":"women","size":[1,2,3]},
+      {"id":10,"name":"Air Jordan 7 Retro Sail","price":160,"old_price":200,"for":"men","size":[1,2,3]},
+      {"id":11,"name":"Air Jordan 1 Retro High Yellow","price":140,"old_price":200,"for":"men","size":[1,2,3]}
+    ]
+}

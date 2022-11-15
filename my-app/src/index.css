@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-header {
+  padding: 20px;
+  background-color: grey;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.main-header button {
+  cursor: pointer;
+  transition: all 0.6s;
+  font-weight: bold;
+  width: 260px;
+  height: 80px;
+}
+
+.main-header button:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.roundable {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-right:10px;
+}
+.roundable-right{
+  border: 1px solid black;
+  border-radius: 8px;
+  float: right  ;
+}
+.Sale{
+  margin: 150px;
+  background-color: #444444;
+  padding: 20px;   
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+}
+.main-aside{
+  margin-top: 80px;
+  margin-bottom: 180px;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-aside section{
+  width: 400px;
+  height: 450px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.main-aside section h1{
+  text-align: center;
+}
+.main-aside section h1 .price{
+  font-size: 30px;
+}
+.main-aside section h1 .old_price{
+  text-decoration: line-through;
+}
+.main-aside section p{
+  font-size: 24px;
+}
+.main-aside section .image{
+  width: 440px;
+  height: 250px;
+  margin-left: -10px;
+  padding:  10px;
+  background-color: grey;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.add_to_card{
+  margin: auto;
+  cursor: pointer;
+  transition: all 0.6s;
+  font-weight: bold;
+  width: 260px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  float:none
+}
+.add_to_card:hover{
+  background-color: rgb(172, 36, 36);
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.Enter{
+  width: 600px;
+  height: 150px;
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;   
+  justify-content: center;
+  align-items: center;
+}
+.OK{
+  font-size: 20px;
+  margin: auto;
+  cursor: pointer;
+  transition: all 0.6s;
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  float:none
+}
+.OK:hover{
+  background-color: rgb(172, 36, 36);
+}
+.select{
+  margin-left: 20px;
+  font-size: 16px; 
+  font-weight: 700; 
+  color: #444;
+  width: 160px;
+  height: 34px;
+  line-height: 20px;
+}
+.enterance{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  flex-wrap: wrap;
+  width: auto;
+  height: 800px;
+  background-color:#FFF7F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.enterance label{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+}
+.error{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 53px;
+  color: red;
+}
+.enterance input{
+  height: 30px;
+  font-family: 'Cookie';
+  font-style: normal;
+  font-size: 30px;
+}
+.enterance .login{
+  cursor: pointer;
+  margin: 30px;
+  transition: all 0.6s;
+  font-weight: bold;
+  font-size: 50px;
+  width: 460px;
+  height: 60px;
+  border: 1px solid black;
+  background: rgba(1, 178, 234, 0.54);
+  border-radius: 8px;
+  float:none
+}
+.enterance .registration{
+  cursor: pointer;
+  margin: 20px;
+  transition: all 0.6s;
+  font-weight: bold;
+  font-size: 32px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  background: rgba(1, 178, 234, 0.54);
+  border-radius: 8px;
+  float:none
+}
+.profile{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: auto;
+  height: 800px;
+  background-color:#FFF7F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.profile aside div label{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  padding-right: 20px;
+}
+.profile aside{
+  margin-left: 5%;
+}
+.profile aside div{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile aside div input{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-size: 30px;
+  width: 300px;
+}
+.profile .right{
+  flex-grow: 1.5;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile .buy{
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.6s;
+  font-weight: bold;
+  font-size: 50px;
+  width: 460px;
+  height: 60px;
+  border: 1px solid black;
+  background: rgba(1, 178, 234, 0.54);
+  border-radius: 8px;
+  float:none
+}
+.card{
+  width: 50%;
+  height: 300px;
+  background-color: rgb(204, 195, 195);
+}
+.Exit{
+  position:absolute;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  transition: all 0.6s;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.Exit:hover{
+  background-color: rgb(255, 144, 144);
+}
+.delete{
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.6s;
+  font-weight: bold;
+  font-size: 20px;
+  width: 260px;
+  height: 60px;
+  border: 1px solid black;
+  background: rgba(255, 226, 226, 0.54);
+  border-radius: 8px;
+  float:none
+}
+
+
+
+
+
+
+
+
+.flex_input{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_input label{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  padding-right: 20px;
+}
+
+.enterance .registration{
+  cursor: pointer;
+  margin: 30px;
+  transition: all 0.6s;
+  font-weight: bold;
+  font-size: 50px;
+  width: 560px;
+  height: 80px;
+  border: 1px solid black;
+  background: rgba(1, 178, 234, 0.54);
+  border-radius: 8px;
+  float:none
+}
+
+.enterance .flex_input input{
+  font-family: 'Cookie';
+  font-style: normal;
+  font-size: 40px;
+}
