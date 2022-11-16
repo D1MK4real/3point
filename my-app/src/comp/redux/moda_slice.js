@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
   modalID: null,
   modalState: false,
-  card:[]
+  card: [],
 };
 
 const modalSlice = createSlice({
@@ -17,9 +17,9 @@ const modalSlice = createSlice({
       state.modalID = null;
     },
     addCard: (state, action) => {
-      state.card = [...state.card, ...action.payload];  
-        },
-    delCard:(state) =>{
+      state.card = [...state.card, ...action.payload];
+    },
+    delCard: (state) => {
       state.card = [];
     },
     login: (state) => {
@@ -33,4 +33,5 @@ const modalSlice = createSlice({
 });
 
 export const modalReducer = modalSlice.reducer;
-export const {delCard,login,logout,addCard, openModal, closeModal } = modalSlice.actions;
+export const { delCard, login, logout, addCard, openModal, closeModal } =
+  modalSlice.actions;

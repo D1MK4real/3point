@@ -36,22 +36,22 @@ code {
 .roundable {
   border: 1px solid black;
   border-radius: 8px;
-  margin-right:10px;
+  margin-right: 10px;
 }
-.roundable-right{
+.roundable-right {
   border: 1px solid black;
   border-radius: 8px;
-  float: right  ;
+  float: right;
 }
-.Sale{
+.Sale {
   margin: 150px;
   background-color: #444444;
-  padding: 20px;   
+  padding: 20px;
   text-align: center;
   font-size: 60px;
   color: #ffffff;
 }
-.main-aside{
+.main-aside {
   margin-top: 80px;
   margin-bottom: 180px;
   width: 1400px;
@@ -61,35 +61,35 @@ code {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.main-aside section{
+.main-aside section {
   width: 400px;
   height: 450px;
   padding: 10px;
   margin-bottom: 50px;
 }
-.main-aside section h1{
+.main-aside section h1 {
   text-align: center;
 }
-.main-aside section h1 .price{
+.main-aside section h1 .price {
   font-size: 30px;
 }
-.main-aside section h1 .old_price{
+.main-aside section h1 .old_price {
   text-decoration: line-through;
 }
-.main-aside section p{
+.main-aside section p {
   font-size: 24px;
 }
-.main-aside section .image{
+.main-aside section .image {
   width: 440px;
   height: 250px;
   margin-left: -10px;
-  padding:  10px;
+  padding: 10px;
   background-color: grey;
   margin-bottom: 10px;
   background-position: center;
   background-size: cover;
 }
-.add_to_card{
+.add_to_card {
   margin: auto;
   cursor: pointer;
   transition: all 0.6s;
@@ -98,32 +98,32 @@ code {
   height: 30px;
   border: 1px solid black;
   border-radius: 8px;
-  float:none
+  float: none;
 }
-.add_to_card:hover{
+.add_to_card:hover {
   background-color: rgb(172, 36, 36);
 }
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.flexd{
+.flexd {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
 }
-.Enter{
+.Enter {
   width: 600px;
   height: 150px;
   font-size: 30px;
   color: #ffffff;
-  display: flex;   
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.OK{
+.OK {
   font-size: 20px;
   margin: auto;
   cursor: pointer;
@@ -133,21 +133,21 @@ code {
   height: 30px;
   border: 1px solid black;
   border-radius: 8px;
-  float:none
+  float: none;
 }
-.OK:hover{
+.OK:hover {
   background-color: rgb(172, 36, 36);
 }
-.select{
+.select {
   margin-left: 20px;
-  font-size: 16px; 
-  font-weight: 700; 
+  font-size: 16px;
+  font-weight: 700;
   color: #444;
   width: 160px;
   height: 34px;
   line-height: 20px;
 }
-.enterance{
+.enterance {
   margin-top: 10vh;
   margin-bottom: 10vh;
   margin-left: 20vw;
@@ -155,20 +155,20 @@ code {
   flex-wrap: wrap;
   width: auto;
   height: 800px;
-  background-color:#FFF7F7;
+  background-color: #fff7f7;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.enterance label{
+.enterance label {
   font-family: 'Cookie';
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 53px;
 }
-.error{
+.error {
   font-family: 'Cookie';
   font-style: normal;
   font-weight: 400px;
@@ -176,13 +176,13 @@ code {
   line-height: 53px;
   color: red;
 }
-.enterance input{
+.enterance input {
   height: 30px;
   font-family: 'Cookie';
   font-style: normal;
   font-size: 30px;
 }
-.enterance .login{
+.enterance .login {
   cursor: pointer;
   margin: 30px;
   transition: all 0.6s;
@@ -193,9 +193,9 @@ code {
   border: 1px solid black;
   background: rgba(1, 178, 234, 0.54);
   border-radius: 8px;
-  float:none
+  float: none;
 }
-.enterance .registration{
+.enterance .registration {
   cursor: pointer;
   margin: 20px;
   transition: all 0.6s;
@@ -206,22 +206,22 @@ code {
   border: 1px solid black;
   background: rgba(1, 178, 234, 0.54);
   border-radius: 8px;
-  float:none
+  float: none;
 }
-.profile{
+.profile {
   margin-top: 10vh;
   margin-bottom: 10vh;
   margin-left: 10vw;
   margin-right: 10vw;
   width: auto;
   height: 800px;
-  background-color:#FFF7F7;
+  background-color: #fff7f7;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
-.profile aside div label{
+.profile aside div label {
   font-family: 'Cookie';
   font-style: normal;
   font-weight: 400;
@@ -229,21 +229,21 @@ code {
   line-height: 53px;
   padding-right: 20px;
 }
-.profile aside{
+.profile aside {
   margin-left: 5%;
 }
-.profile aside div{
+.profile aside div {
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
-.profile aside div input{
+.profile aside div input {
   font-family: 'Cookie';
   font-style: normal;
   font-size: 30px;
   width: 300px;
 }
-.profile .right{
+.profile .right {
   flex-grow: 1.5;
   margin-right: 5%;
   display: flex;
@@ -251,7 +251,7 @@ code {
   justify-content: center;
   align-items: center;
 }
-.profile .buy{
+.profile .buy {
   margin-top: 30px;
   cursor: pointer;
   transition: all 0.6s;
@@ -262,15 +262,15 @@ code {
   border: 1px solid black;
   background: rgba(1, 178, 234, 0.54);
   border-radius: 8px;
-  float:none
+  float: none;
 }
-.card{
+.card {
   width: 50%;
   height: 300px;
   background-color: rgb(204, 195, 195);
 }
-.Exit{
-  position:absolute;
+.Exit {
+  position: absolute;
   right: 20px;
   top: 20px;
   width: 100px;
@@ -280,10 +280,10 @@ code {
   border: 1px solid black;
   border-radius: 8px;
 }
-.Exit:hover{
+.Exit:hover {
   background-color: rgb(255, 144, 144);
 }
-.delete{
+.delete {
   margin-top: 30px;
   cursor: pointer;
   transition: all 0.6s;
@@ -294,23 +294,16 @@ code {
   border: 1px solid black;
   background: rgba(255, 226, 226, 0.54);
   border-radius: 8px;
-  float:none
+  float: none;
 }
 
-
-
-
-
-
-
-
-.flex_input{
+.flex_input {
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.flex_input label{
+.flex_input label {
   font-family: 'Cookie';
   font-style: normal;
   font-weight: 400;
@@ -319,7 +312,7 @@ code {
   padding-right: 20px;
 }
 
-.enterance .registration{
+.enterance .registration {
   cursor: pointer;
   margin: 30px;
   transition: all 0.6s;
@@ -330,10 +323,10 @@ code {
   border: 1px solid black;
   background: rgba(1, 178, 234, 0.54);
   border-radius: 8px;
-  float:none
+  float: none;
 }
 
-.enterance .flex_input input{
+.enterance .flex_input input {
   font-family: 'Cookie';
   font-style: normal;
   font-size: 40px;

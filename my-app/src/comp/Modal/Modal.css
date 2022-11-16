@@ -1,28 +1,27 @@
-.modal{
-    height: 200px;
-    width: 600px;
-    background-color:#444444;  
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
+.modal {
+  height: 200px;
+  width: 600px;
+  background-color: #444444;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
 }
-.cont{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;   
-    justify-content: center;
-    align-items: center;
-    
+.cont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .modal-close {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    right: 10px;
-    top: 10px;
-    position: absolute;
-  }
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}

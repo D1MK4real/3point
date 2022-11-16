@@ -1,8 +1,3 @@
-export function Sale(){
-    return(
-        <div className='Sale'>
-            Sale
-        </div>
-
-    )
+export function Sale() {
+  return <div className='Sale'>Sale</div>;
 }
