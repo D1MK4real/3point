@@ -19,7 +19,7 @@ export function ModalContainer() {
 
 
    const add = ()=>{
-    if(value==''){
+    if(value===''){
       handleOverlayClick();
       return;
     }

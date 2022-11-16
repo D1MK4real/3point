@@ -10,7 +10,7 @@ export function useBlogs() {
 
   useEffect(() => {
     ajaxService(`/sale?_page=${page}`).then((data)=>{
-        if(page==1){
+        if(page===1){
             dispatch(setBlogs(data));
         }else{
             dispatch(setBlogsMore(data));

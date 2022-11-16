@@ -7,7 +7,7 @@ export function Header(){
     const dispatch = useDispatch();
     const state = useSelector(state=>state.modal.modalState);
     let param = ``;
-    if (state==true){
+    if (state===true){
         param = '/profile';
     }else{
         param = '/login';
