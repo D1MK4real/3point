@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { schema, normalize } from 'normalizr';
 
 const initialState = {
   blogs: [],
@@ -19,6 +20,8 @@ function ptety(blogs) {
   };
 }
 
+const blogSchema = new schema.Entity('sale');
+
 const Slice = createSlice({
   name: 'blogs',
   initialState,
@@ -31,16 +34,18 @@ const Slice = createSlice({
     },
     setBlogs: (state, action) => {
       const { blogsIDs, blogsObj } = ptety(action.payload);
+      const { entities, result } = normalize(action.payload, [blogSchema]);
 
       state.blogs = action.payload;
-      state.blogsIDs = blogsIDs;
-      state.blogsObj = { ...state.blogsObj, ...blogsObj };
+      state.blogsIDs = result;
+      state.blogsObj = { ...state.blogsObj, ...entities.sale };
     },
     setBlogsMore: (state, action) => {
       const { blogsIDs, blogsObj } = ptety(action.payload);
+      const { entities, result } = normalize(action.payload, [blogSchema]);
       state.blogs = [...state.blogs, ...action.payload];
-      state.blogsIDs = [...state.blogsIDs, ...blogsIDs];
-      state.blogsObj = { ...state.blogsObj, ...blogsObj };
+      state.blogsIDs = [...state.blogsIDs, ...result];
+      state.blogsObj = { ...state.blogsObj, ...entities.sale };
     },
   },
 });

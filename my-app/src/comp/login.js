@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HeaderLink } from './HeaderLink';
 import { useDispatch } from 'react-redux';
-import { setPage } from './redux/slice';
 import { login } from './redux/moda_slice';
 
 export function Login() {
